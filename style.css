@@ -1,0 +1,25 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+.title-container {
+    padding: 25px;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-container .left, .content-container .right {
+    margin: 25px;
+}
+
+.footer-container {
+    padding: 25px;
+    text-align: center;   
+}
